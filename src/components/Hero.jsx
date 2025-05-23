@@ -82,6 +82,10 @@ const Hero = () => {
 
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
 
+  const handleRegisterClick = () => {
+    window.location.href = "https://wa.me/917358723987?text=Hello%20Etc.Esports,%20I%27m%20interested%20in%20registering!";
+  };
+
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {loading && (
@@ -149,10 +153,13 @@ const Hero = () => {
             <h1 className="special-font hero-heading text-blue-100">
               redefi<b>n</b>e
             </h1>
-
-          
-
-
+            <Button
+              id="register-now"
+              title="Register Now"
+              leftIcon={<TiLocationArrow />}
+              containerClass="bg-yellow-300 flex-center gap-1"
+              onClick={handleRegisterClick}
+            />
           </div>
         </div>
       </div>
