@@ -153,13 +153,12 @@ const Hero = () => {
             <h1 className="special-font hero-heading text-blue-100">
               redefi<b>n</b>e
             </h1>
-            <Button
+            <button
               id="register-now"
-              title="Register Now"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
+              className="mt-5 flex-center gap-1 rounded-full border-none bg-yellow-300 px-6 py-3 text-lg font-bold text-black transition-all duration-300 ease-in-out hover:bg-blue-200 hover:text-blue-100"
+             
               onClick={handleRegisterClick}
-            />
+            >Register Now</button>
           </div>
         </div>
       </div>
