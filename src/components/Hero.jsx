@@ -155,7 +155,7 @@ const Hero = () => {
             </h1>
             <button
               id="register-now"
-              className="mt-5 flex-center gap-1 rounded-full border-none bg-yellow-300 px-4 py-2 text-lg font-bold text-black transition-all duration-300 ease-in-out hover:bg-blue-200 hover:text-blue-100"
+              className="mt-5 flex-center gap-1 rounded-full border-none bg-yellow-300 px-2 py-2 text-lg font-bold text-black transition-all duration-300 ease-in-out hover:bg-blue-200 hover:text-blue-100"
              
               onClick={handleRegisterClick}
             >Register Now</button>
